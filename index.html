@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PANORAMA BUILDS</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      color: #0a2d6d;
+      background: linear-gradient(180deg, #ffffff 0%, #e7ecf8 100%);
+      background-image:
+        repeating-linear-gradient(135deg, #cfd8f1 0 1px, transparent 1px 40px),
+        repeating-linear-gradient(45deg, #cfd8f1 0 1px, transparent 1px 40px);
+      background-size: 80px 80px;
+      overflow-x: hidden;
+    }
+
+    header {
+      padding-top: 50px;
+      animation: fadeUp 1.2s ease forwards;
+    }
+
+    header img {
+      width: 160px;
+      height: auto;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 1.5s ease forwards;
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 800;
+      color: #1c3f91;
+      margin: 20px 0 40px;
+      letter-spacing: 2px;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 1.5s ease forwards;
+      animation-delay: 0.3s;
+    }
+
+    .services {
+      background-color: rgba(255, 255, 255, 0.85);
+      display: inline-block;
+      padding: 30px 50px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      margin-bottom: 50px;
+      opacity: 0;
+      transform: translateY(40px);
+      animation: fadeUp 1.5s ease forwards;
+      animation-delay: 0.6s;
+    }
+
+    .services h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      color: #1c3f91;
+    }
+
+    .services p {
+      line-height: 1.8;
+      font-size: 18px;
+      margin: 0;
+    }
+
+    footer {
+      background: #1c3f91;
+      color: #fff;
+      padding: 25px 10px;
+      font-size: 18px;
+      opacity: 0;
+      transform: translateY(30px);
+      animation: fadeUp 1.5s ease forwards;
+      animation-delay: 1s;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes fadeUp {
+      0% {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Panorama Builds Logo">
+    <h1>PANORAMA BUILDS</h1>
+  </header>
+
+  <section class="services">
+    <h2>Specializing in:</h2>
+    <p>
+      Tile<br>
+      Cabinetry<br>
+      Carpentry<br>
+      Flooring<br>
+      Permanent LED lighting
+    </p>
+  </section>
+
+  <footer>
+    <p>📞 +1 (941) 837-7659 (Serhii)</p>
+    <p>✉️ <a href="mailto:office@panoramabuilds.com">office@panoramabuilds.com</a></p>
+  </footer>
+
+</body>
+</html>
